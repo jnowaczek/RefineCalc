@@ -1,0 +1,3308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="sde">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>3.20.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="agtAgentTypes"/>
+    <table id="7" parent="2" name="agtAgents"/>
+    <table id="8" parent="2" name="agtResearchAgents"/>
+    <table id="9" parent="2" name="certCerts"/>
+    <table id="10" parent="2" name="certMasteries"/>
+    <table id="11" parent="2" name="certSkills"/>
+    <table id="12" parent="2" name="chrAncestries"/>
+    <table id="13" parent="2" name="chrAttributes"/>
+    <table id="14" parent="2" name="chrBloodlines"/>
+    <table id="15" parent="2" name="chrFactions"/>
+    <table id="16" parent="2" name="chrRaces"/>
+    <table id="17" parent="2" name="crpActivities"/>
+    <table id="18" parent="2" name="crpNPCCorporationDivisions"/>
+    <table id="19" parent="2" name="crpNPCCorporationResearchFields"/>
+    <table id="20" parent="2" name="crpNPCCorporationTrades"/>
+    <table id="21" parent="2" name="crpNPCCorporations"/>
+    <table id="22" parent="2" name="crpNPCDivisions"/>
+    <table id="23" parent="2" name="dgmAttributeCategories"/>
+    <table id="24" parent="2" name="dgmAttributeTypes"/>
+    <table id="25" parent="2" name="dgmEffects"/>
+    <table id="26" parent="2" name="dgmExpressions"/>
+    <table id="27" parent="2" name="dgmTypeAttributes"/>
+    <table id="28" parent="2" name="dgmTypeEffects"/>
+    <table id="29" parent="2" name="eveGraphics"/>
+    <table id="30" parent="2" name="eveIcons"/>
+    <table id="31" parent="2" name="eveUnits"/>
+    <table id="32" parent="2" name="industryActivity"/>
+    <table id="33" parent="2" name="industryActivityMaterials"/>
+    <table id="34" parent="2" name="industryActivityProbabilities"/>
+    <table id="35" parent="2" name="industryActivityProducts"/>
+    <table id="36" parent="2" name="industryActivityRaces"/>
+    <table id="37" parent="2" name="industryActivitySkills"/>
+    <table id="38" parent="2" name="industryBlueprints"/>
+    <table id="39" parent="2" name="invCategories"/>
+    <table id="40" parent="2" name="invContrabandTypes"/>
+    <table id="41" parent="2" name="invControlTowerResourcePurposes"/>
+    <table id="42" parent="2" name="invControlTowerResources"/>
+    <table id="43" parent="2" name="invFlags"/>
+    <table id="44" parent="2" name="invGroups"/>
+    <table id="45" parent="2" name="invItems"/>
+    <table id="46" parent="2" name="invMarketGroups"/>
+    <table id="47" parent="2" name="invMetaGroups"/>
+    <table id="48" parent="2" name="invMetaTypes"/>
+    <table id="49" parent="2" name="invNames"/>
+    <table id="50" parent="2" name="invPositions"/>
+    <table id="51" parent="2" name="invTraits"/>
+    <table id="52" parent="2" name="invTypeMaterials"/>
+    <table id="53" parent="2" name="invTypeReactions"/>
+    <table id="54" parent="2" name="invTypes"/>
+    <table id="55" parent="2" name="invUniqueNames"/>
+    <table id="56" parent="2" name="invVolumes"/>
+    <table id="57" parent="2" name="mapCelestialStatistics"/>
+    <table id="58" parent="2" name="mapConstellationJumps"/>
+    <table id="59" parent="2" name="mapConstellations"/>
+    <table id="60" parent="2" name="mapDenormalize"/>
+    <table id="61" parent="2" name="mapJumps"/>
+    <table id="62" parent="2" name="mapLandmarks"/>
+    <table id="63" parent="2" name="mapLocationScenes"/>
+    <table id="64" parent="2" name="mapLocationWormholeClasses"/>
+    <table id="65" parent="2" name="mapRegionJumps"/>
+    <table id="66" parent="2" name="mapRegions"/>
+    <table id="67" parent="2" name="mapSolarSystemJumps"/>
+    <table id="68" parent="2" name="mapSolarSystems"/>
+    <table id="69" parent="2" name="mapUniverse"/>
+    <table id="70" parent="2" name="planetSchematics"/>
+    <table id="71" parent="2" name="planetSchematicsPinMap"/>
+    <table id="72" parent="2" name="planetSchematicsTypeMap"/>
+    <table id="73" parent="2" name="ramActivities"/>
+    <table id="74" parent="2" name="ramAssemblyLineStations"/>
+    <table id="75" parent="2" name="ramAssemblyLineTypeDetailPerCategory"/>
+    <table id="76" parent="2" name="ramAssemblyLineTypeDetailPerGroup"/>
+    <table id="77" parent="2" name="ramAssemblyLineTypes"/>
+    <table id="78" parent="2" name="ramInstallationTypeContents"/>
+    <table id="79" parent="2" name="skinLicense"/>
+    <table id="80" parent="2" name="skinMaterials"/>
+    <table id="81" parent="2" name="skinShip"/>
+    <table id="82" parent="2" name="skins"/>
+    <table id="83" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="84" parent="2" name="staOperationServices"/>
+    <table id="85" parent="2" name="staOperations"/>
+    <table id="86" parent="2" name="staServices"/>
+    <table id="87" parent="2" name="staStationTypes"/>
+    <table id="88" parent="2" name="staStations"/>
+    <table id="89" parent="2" name="translationTables"/>
+    <table id="90" parent="2" name="trnTranslationColumns"/>
+    <table id="91" parent="2" name="trnTranslationLanguages"/>
+    <table id="92" parent="2" name="trnTranslations"/>
+    <table id="93" parent="2" name="warCombatZoneSystems"/>
+    <table id="94" parent="2" name="warCombatZones"/>
+    <column id="95" parent="6" name="agentTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="6" name="agentType">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+    </column>
+    <key id="97" parent="6">
+      <ColNames>agentTypeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="98" parent="7" name="agentID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="7" name="divisionID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="100" parent="7" name="corporationID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="101" parent="7" name="locationID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="102" parent="7" name="level">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="103" parent="7" name="quality">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="104" parent="7" name="agentTypeID">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="105" parent="7" name="isLocator">
+      <Position>8</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <index id="106" parent="7" name="ix_agtAgents_corporationID">
+      <ColNames>corporationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="107" parent="7" name="ix_agtAgents_locationID">
+      <ColNames>locationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="108" parent="7">
+      <ColNames>agentID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="109" parent="7">
+      <Predicate>&quot;isLocator&quot; IN (0, 1)</Predicate>
+    </check>
+    <column id="110" parent="8" name="agentID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="8" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="112" parent="8" name="sqlite_autoindex_agtResearchAgents_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>agentID
+typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="113" parent="8" name="ix_agtResearchAgents_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="114" parent="8">
+      <ColNames>agentID
+typeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_agtResearchAgents_1</UnderlyingIndexName>
+    </key>
+    <column id="115" parent="9" name="certID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="9" name="description">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="117" parent="9" name="groupID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="118" parent="9" name="name">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <key id="119" parent="9">
+      <ColNames>certID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="120" parent="10" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="121" parent="10" name="masteryLevel">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="122" parent="10" name="certID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="123" parent="11" name="certID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="124" parent="11" name="skillID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="125" parent="11" name="certLevelInt">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="126" parent="11" name="skillLevel">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="127" parent="11" name="certLevelText">
+      <Position>5</Position>
+      <DataType>VARCHAR(8)|0s</DataType>
+    </column>
+    <index id="128" parent="11" name="ix_certSkills_skillID">
+      <ColNames>skillID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <column id="129" parent="12" name="ancestryID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="12" name="ancestryName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="131" parent="12" name="bloodlineID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="132" parent="12" name="description">
+      <Position>4</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="133" parent="12" name="perception">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="134" parent="12" name="willpower">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="135" parent="12" name="charisma">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="136" parent="12" name="memory">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="137" parent="12" name="intelligence">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="138" parent="12" name="iconID">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="139" parent="12" name="shortDescription">
+      <Position>11</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <key id="140" parent="12">
+      <ColNames>ancestryID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="141" parent="13" name="attributeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="142" parent="13" name="attributeName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="143" parent="13" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="144" parent="13" name="iconID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="145" parent="13" name="shortDescription">
+      <Position>5</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <column id="146" parent="13" name="notes">
+      <Position>6</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <key id="147" parent="13">
+      <ColNames>attributeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="148" parent="14" name="bloodlineID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="149" parent="14" name="bloodlineName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="150" parent="14" name="raceID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="151" parent="14" name="description">
+      <Position>4</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="152" parent="14" name="maleDescription">
+      <Position>5</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="153" parent="14" name="femaleDescription">
+      <Position>6</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="154" parent="14" name="shipTypeID">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="155" parent="14" name="corporationID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="156" parent="14" name="perception">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="157" parent="14" name="willpower">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="158" parent="14" name="charisma">
+      <Position>11</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="159" parent="14" name="memory">
+      <Position>12</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="160" parent="14" name="intelligence">
+      <Position>13</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="161" parent="14" name="iconID">
+      <Position>14</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="162" parent="14" name="shortDescription">
+      <Position>15</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <column id="163" parent="14" name="shortMaleDescription">
+      <Position>16</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <column id="164" parent="14" name="shortFemaleDescription">
+      <Position>17</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <key id="165" parent="14">
+      <ColNames>bloodlineID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="166" parent="15" name="factionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="15" name="factionName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="168" parent="15" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="169" parent="15" name="raceIDs">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="170" parent="15" name="solarSystemID">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="171" parent="15" name="corporationID">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="172" parent="15" name="sizeFactor">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="173" parent="15" name="stationCount">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="174" parent="15" name="stationSystemCount">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="175" parent="15" name="militiaCorporationID">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="176" parent="15" name="iconID">
+      <Position>11</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="177" parent="15">
+      <ColNames>factionID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="178" parent="16" name="raceID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="179" parent="16" name="raceName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="180" parent="16" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="181" parent="16" name="iconID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="182" parent="16" name="shortDescription">
+      <Position>5</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <key id="183" parent="16">
+      <ColNames>raceID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="184" parent="17" name="activityID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="185" parent="17" name="activityName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="186" parent="17" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <key id="187" parent="17">
+      <ColNames>activityID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="188" parent="18" name="corporationID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="189" parent="18" name="divisionID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="190" parent="18" name="size">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="191" parent="18" name="sqlite_autoindex_crpNPCCorporationDivisions_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>corporationID
+divisionID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="192" parent="18">
+      <ColNames>corporationID
+divisionID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_crpNPCCorporationDivisions_1</UnderlyingIndexName>
+    </key>
+    <column id="193" parent="19" name="skillID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="194" parent="19" name="corporationID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="195" parent="19" name="sqlite_autoindex_crpNPCCorporationResearchFields_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>skillID
+corporationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="196" parent="19">
+      <ColNames>skillID
+corporationID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_crpNPCCorporationResearchFields_1</UnderlyingIndexName>
+    </key>
+    <column id="197" parent="20" name="corporationID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="20" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="199" parent="20" name="sqlite_autoindex_crpNPCCorporationTrades_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>corporationID
+typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="200" parent="20">
+      <ColNames>corporationID
+typeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_crpNPCCorporationTrades_1</UnderlyingIndexName>
+    </key>
+    <column id="201" parent="21" name="corporationID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="202" parent="21" name="size">
+      <Position>2</Position>
+      <DataType>CHAR(1)|0s</DataType>
+    </column>
+    <column id="203" parent="21" name="extent">
+      <Position>3</Position>
+      <DataType>CHAR(1)|0s</DataType>
+    </column>
+    <column id="204" parent="21" name="solarSystemID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="205" parent="21" name="investorID1">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="206" parent="21" name="investorShares1">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="207" parent="21" name="investorID2">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="208" parent="21" name="investorShares2">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="209" parent="21" name="investorID3">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="210" parent="21" name="investorShares3">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="211" parent="21" name="investorID4">
+      <Position>11</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="212" parent="21" name="investorShares4">
+      <Position>12</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="213" parent="21" name="friendID">
+      <Position>13</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="214" parent="21" name="enemyID">
+      <Position>14</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="215" parent="21" name="publicShares">
+      <Position>15</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="216" parent="21" name="initialPrice">
+      <Position>16</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="217" parent="21" name="minSecurity">
+      <Position>17</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="218" parent="21" name="scattered">
+      <Position>18</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="219" parent="21" name="fringe">
+      <Position>19</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="220" parent="21" name="corridor">
+      <Position>20</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="221" parent="21" name="hub">
+      <Position>21</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="222" parent="21" name="border">
+      <Position>22</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="223" parent="21" name="factionID">
+      <Position>23</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="224" parent="21" name="sizeFactor">
+      <Position>24</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="225" parent="21" name="stationCount">
+      <Position>25</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="226" parent="21" name="stationSystemCount">
+      <Position>26</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="227" parent="21" name="description">
+      <Position>27</Position>
+      <DataType>VARCHAR(4000)|0s</DataType>
+    </column>
+    <column id="228" parent="21" name="iconID">
+      <Position>28</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="229" parent="21">
+      <ColNames>corporationID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="230" parent="21">
+      <Predicate>scattered IN (0, 1)</Predicate>
+    </check>
+    <column id="231" parent="22" name="divisionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="22" name="divisionName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="233" parent="22" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="234" parent="22" name="leaderType">
+      <Position>4</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <key id="235" parent="22">
+      <ColNames>divisionID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="236" parent="23" name="categoryID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="237" parent="23" name="categoryName">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+    </column>
+    <column id="238" parent="23" name="categoryDescription">
+      <Position>3</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+    </column>
+    <key id="239" parent="23">
+      <ColNames>categoryID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="240" parent="24" name="attributeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="241" parent="24" name="attributeName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="242" parent="24" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="243" parent="24" name="iconID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="244" parent="24" name="defaultValue">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="245" parent="24" name="published">
+      <Position>6</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="246" parent="24" name="displayName">
+      <Position>7</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+    </column>
+    <column id="247" parent="24" name="unitID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="248" parent="24" name="stackable">
+      <Position>9</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="249" parent="24" name="highIsGood">
+      <Position>10</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="250" parent="24" name="categoryID">
+      <Position>11</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="251" parent="24">
+      <ColNames>attributeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="252" parent="24">
+      <Predicate>&quot;highIsGood&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="253" parent="24">
+      <Predicate>published IN (0, 1)</Predicate>
+    </check>
+    <check id="254" parent="24">
+      <Predicate>stackable IN (0, 1)</Predicate>
+    </check>
+    <column id="255" parent="25" name="effectID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="256" parent="25" name="effectName">
+      <Position>2</Position>
+      <DataType>VARCHAR(400)|0s</DataType>
+    </column>
+    <column id="257" parent="25" name="effectCategory">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="258" parent="25" name="preExpression">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="259" parent="25" name="postExpression">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="260" parent="25" name="description">
+      <Position>6</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="261" parent="25" name="guid">
+      <Position>7</Position>
+      <DataType>VARCHAR(60)|0s</DataType>
+    </column>
+    <column id="262" parent="25" name="iconID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="263" parent="25" name="isOffensive">
+      <Position>9</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="264" parent="25" name="isAssistance">
+      <Position>10</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="265" parent="25" name="durationAttributeID">
+      <Position>11</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="266" parent="25" name="trackingSpeedAttributeID">
+      <Position>12</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="267" parent="25" name="dischargeAttributeID">
+      <Position>13</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="268" parent="25" name="rangeAttributeID">
+      <Position>14</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="269" parent="25" name="falloffAttributeID">
+      <Position>15</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="270" parent="25" name="disallowAutoRepeat">
+      <Position>16</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="271" parent="25" name="published">
+      <Position>17</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="272" parent="25" name="displayName">
+      <Position>18</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="273" parent="25" name="isWarpSafe">
+      <Position>19</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="274" parent="25" name="rangeChance">
+      <Position>20</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="275" parent="25" name="electronicChance">
+      <Position>21</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="276" parent="25" name="propulsionChance">
+      <Position>22</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="277" parent="25" name="distribution">
+      <Position>23</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="278" parent="25" name="sfxName">
+      <Position>24</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+    </column>
+    <column id="279" parent="25" name="npcUsageChanceAttributeID">
+      <Position>25</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="280" parent="25" name="npcActivationChanceAttributeID">
+      <Position>26</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="281" parent="25" name="fittingUsageChanceAttributeID">
+      <Position>27</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="282" parent="25" name="modifierInfo">
+      <Position>28</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <key id="283" parent="25">
+      <ColNames>effectID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="284" parent="25">
+      <Predicate>&quot;disallowAutoRepeat&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="285" parent="25">
+      <Predicate>&quot;electronicChance&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="286" parent="25">
+      <Predicate>&quot;isAssistance&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="287" parent="25">
+      <Predicate>&quot;isOffensive&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="288" parent="25">
+      <Predicate>&quot;isWarpSafe&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="289" parent="25">
+      <Predicate>&quot;propulsionChance&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="290" parent="25">
+      <Predicate>&quot;rangeChance&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="291" parent="25">
+      <Predicate>published IN (0, 1)</Predicate>
+    </check>
+    <column id="292" parent="26" name="expressionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="293" parent="26" name="operandID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="294" parent="26" name="arg1">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="295" parent="26" name="arg2">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="296" parent="26" name="expressionValue">
+      <Position>5</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="297" parent="26" name="description">
+      <Position>6</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="298" parent="26" name="expressionName">
+      <Position>7</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <column id="299" parent="26" name="expressionTypeID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="300" parent="26" name="expressionGroupID">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="301" parent="26" name="expressionAttributeID">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="302" parent="26">
+      <ColNames>expressionID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="303" parent="27" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="304" parent="27" name="attributeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="305" parent="27" name="valueInt">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="306" parent="27" name="valueFloat">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <index id="307" parent="27" name="sqlite_autoindex_dgmTypeAttributes_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>typeID
+attributeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="308" parent="27" name="ix_dgmTypeAttributes_attributeID">
+      <ColNames>attributeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="309" parent="27">
+      <ColNames>typeID
+attributeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_dgmTypeAttributes_1</UnderlyingIndexName>
+    </key>
+    <column id="310" parent="28" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="311" parent="28" name="effectID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="312" parent="28" name="isDefault">
+      <Position>3</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <index id="313" parent="28" name="sqlite_autoindex_dgmTypeEffects_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>typeID
+effectID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="314" parent="28">
+      <ColNames>typeID
+effectID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_dgmTypeEffects_1</UnderlyingIndexName>
+    </key>
+    <check id="315" parent="28">
+      <Predicate>&quot;isDefault&quot; IN (0, 1)</Predicate>
+    </check>
+    <column id="316" parent="29" name="graphicID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="317" parent="29" name="sofFactionName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="318" parent="29" name="graphicFile">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="319" parent="29" name="sofHullName">
+      <Position>4</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="320" parent="29" name="sofRaceName">
+      <Position>5</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="321" parent="29" name="description">
+      <Position>6</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <key id="322" parent="29">
+      <ColNames>graphicID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="323" parent="30" name="iconID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="324" parent="30" name="iconFile">
+      <Position>2</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <column id="325" parent="30" name="description">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <key id="326" parent="30">
+      <ColNames>iconID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="327" parent="31" name="unitID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="328" parent="31" name="unitName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="329" parent="31" name="displayName">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+    </column>
+    <column id="330" parent="31" name="description">
+      <Position>4</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <key id="331" parent="31">
+      <ColNames>unitID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="332" parent="32" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="333" parent="32" name="activityID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="334" parent="32" name="time">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="335" parent="32" name="sqlite_autoindex_industryActivity_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>typeID
+activityID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="336" parent="32" name="ix_industryActivity_activityID">
+      <ColNames>activityID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="337" parent="32">
+      <ColNames>typeID
+activityID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_industryActivity_1</UnderlyingIndexName>
+    </key>
+    <column id="338" parent="33" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="339" parent="33" name="activityID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="340" parent="33" name="materialTypeID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="341" parent="33" name="quantity">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="342" parent="33" name="industryActivityMaterials_idx1">
+      <ColNames>typeID
+activityID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="343" parent="33" name="ix_industryActivityMaterials_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <column id="344" parent="34" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="345" parent="34" name="activityID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="346" parent="34" name="productTypeID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="347" parent="34" name="probability">
+      <Position>4</Position>
+      <DataType>DECIMAL(3,2 digit)|0s</DataType>
+    </column>
+    <index id="348" parent="34" name="ix_industryActivityProbabilities_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="349" parent="34" name="ix_industryActivityProbabilities_productTypeID">
+      <ColNames>productTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <column id="350" parent="35" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="351" parent="35" name="activityID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="352" parent="35" name="productTypeID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="353" parent="35" name="quantity">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="354" parent="35" name="ix_industryActivityProducts_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="355" parent="35" name="ix_industryActivityProducts_productTypeID">
+      <ColNames>productTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <column id="356" parent="36" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="357" parent="36" name="activityID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="358" parent="36" name="productTypeID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="359" parent="36" name="raceID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="360" parent="36" name="ix_industryActivityRaces_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="361" parent="36" name="ix_industryActivityRaces_productTypeID">
+      <ColNames>productTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <column id="362" parent="37" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="363" parent="37" name="activityID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="364" parent="37" name="skillID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="365" parent="37" name="level">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="366" parent="37" name="industryActivitySkills_idx1">
+      <ColNames>typeID
+activityID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="367" parent="37" name="ix_industryActivitySkills_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="368" parent="37" name="ix_industryActivitySkills_skillID">
+      <ColNames>skillID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <column id="369" parent="38" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="370" parent="38" name="maxProductionLimit">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="371" parent="38">
+      <ColNames>typeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="372" parent="39" name="categoryID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="373" parent="39" name="categoryName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="374" parent="39" name="iconID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="375" parent="39" name="published">
+      <Position>4</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <key id="376" parent="39">
+      <ColNames>categoryID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="377" parent="39">
+      <Predicate>published IN (0, 1)</Predicate>
+    </check>
+    <column id="378" parent="40" name="factionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="379" parent="40" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="380" parent="40" name="standingLoss">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="381" parent="40" name="confiscateMinSec">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="382" parent="40" name="fineByValue">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="383" parent="40" name="attackMinSec">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <index id="384" parent="40" name="sqlite_autoindex_invContrabandTypes_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>factionID
+typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="385" parent="40" name="ix_invContrabandTypes_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="386" parent="40">
+      <ColNames>factionID
+typeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_invContrabandTypes_1</UnderlyingIndexName>
+    </key>
+    <column id="387" parent="41" name="purpose">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="388" parent="41" name="purposeText">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <key id="389" parent="41">
+      <ColNames>purpose</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="390" parent="42" name="controlTowerTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="391" parent="42" name="resourceTypeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="392" parent="42" name="purpose">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="393" parent="42" name="quantity">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="394" parent="42" name="minSecurityLevel">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="395" parent="42" name="factionID">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="396" parent="42" name="sqlite_autoindex_invControlTowerResources_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>controlTowerTypeID
+resourceTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="397" parent="42">
+      <ColNames>controlTowerTypeID
+resourceTypeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_invControlTowerResources_1</UnderlyingIndexName>
+    </key>
+    <column id="398" parent="43" name="flagID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="399" parent="43" name="flagName">
+      <Position>2</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+    </column>
+    <column id="400" parent="43" name="flagText">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="401" parent="43" name="orderID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="402" parent="43">
+      <ColNames>flagID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="403" parent="44" name="groupID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="404" parent="44" name="categoryID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="405" parent="44" name="groupName">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="406" parent="44" name="iconID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="407" parent="44" name="useBasePrice">
+      <Position>5</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="408" parent="44" name="anchored">
+      <Position>6</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="409" parent="44" name="anchorable">
+      <Position>7</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="410" parent="44" name="fittableNonSingleton">
+      <Position>8</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="411" parent="44" name="published">
+      <Position>9</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <index id="412" parent="44" name="ix_invGroups_categoryID">
+      <ColNames>categoryID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="413" parent="44">
+      <ColNames>groupID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="414" parent="44">
+      <Predicate>&quot;fittableNonSingleton&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="415" parent="44">
+      <Predicate>&quot;useBasePrice&quot; IN (0, 1)</Predicate>
+    </check>
+    <check id="416" parent="44">
+      <Predicate>anchorable IN (0, 1)</Predicate>
+    </check>
+    <check id="417" parent="44">
+      <Predicate>anchored IN (0, 1)</Predicate>
+    </check>
+    <check id="418" parent="44">
+      <Predicate>published IN (0, 1)</Predicate>
+    </check>
+    <column id="419" parent="45" name="itemID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="420" parent="45" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="421" parent="45" name="ownerID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="422" parent="45" name="locationID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="423" parent="45" name="flagID">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="424" parent="45" name="quantity">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="425" parent="45" name="items_IX_OwnerLocation">
+      <ColNames>ownerID
+locationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="426" parent="45" name="ix_invItems_locationID">
+      <ColNames>locationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="427" parent="45">
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="428" parent="46" name="marketGroupID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="429" parent="46" name="parentGroupID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="430" parent="46" name="marketGroupName">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="431" parent="46" name="description">
+      <Position>4</Position>
+      <DataType>VARCHAR(3000)|0s</DataType>
+    </column>
+    <column id="432" parent="46" name="iconID">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="433" parent="46" name="hasTypes">
+      <Position>6</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <key id="434" parent="46">
+      <ColNames>marketGroupID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="435" parent="46">
+      <Predicate>&quot;hasTypes&quot; IN (0, 1)</Predicate>
+    </check>
+    <column id="436" parent="47" name="metaGroupID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="437" parent="47" name="metaGroupName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="438" parent="47" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="439" parent="47" name="iconID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="440" parent="47">
+      <ColNames>metaGroupID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="441" parent="48" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="442" parent="48" name="parentTypeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="443" parent="48" name="metaGroupID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="444" parent="48">
+      <ColNames>typeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="445" parent="49" name="itemID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="446" parent="49" name="itemName">
+      <Position>2</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="447" parent="49">
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="448" parent="50" name="itemID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="449" parent="50" name="x">
+      <Position>2</Position>
+      <DataType>FLOAT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="450" parent="50" name="y">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="451" parent="50" name="z">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="452" parent="50" name="yaw">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="453" parent="50" name="pitch">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="454" parent="50" name="roll">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <key id="455" parent="50">
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="456" parent="51" name="traitID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="457" parent="51" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="458" parent="51" name="skillID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="459" parent="51" name="bonus">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="460" parent="51" name="bonusText">
+      <Position>5</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="461" parent="51" name="unitID">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="462" parent="51">
+      <ColNames>traitID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="463" parent="52" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="464" parent="52" name="materialTypeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="465" parent="52" name="quantity">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="466" parent="52" name="sqlite_autoindex_invTypeMaterials_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>typeID
+materialTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="467" parent="52">
+      <ColNames>typeID
+materialTypeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_invTypeMaterials_1</UnderlyingIndexName>
+    </key>
+    <column id="468" parent="53" name="reactionTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="469" parent="53" name="input">
+      <Position>2</Position>
+      <DataType>BOOLEAN|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="470" parent="53" name="typeID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="471" parent="53" name="quantity">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="472" parent="53" name="sqlite_autoindex_invTypeReactions_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>reactionTypeID
+input
+typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="473" parent="53">
+      <ColNames>reactionTypeID
+input
+typeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_invTypeReactions_1</UnderlyingIndexName>
+    </key>
+    <check id="474" parent="53">
+      <Predicate>input IN (0, 1)</Predicate>
+    </check>
+    <column id="475" parent="54" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="476" parent="54" name="groupID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="477" parent="54" name="typeName">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="478" parent="54" name="description">
+      <Position>4</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="479" parent="54" name="mass">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="480" parent="54" name="volume">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="481" parent="54" name="capacity">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="482" parent="54" name="portionSize">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="483" parent="54" name="raceID">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="484" parent="54" name="basePrice">
+      <Position>10</Position>
+      <DataType>DECIMAL(19,4 digit)|0s</DataType>
+    </column>
+    <column id="485" parent="54" name="published">
+      <Position>11</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="486" parent="54" name="marketGroupID">
+      <Position>12</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="487" parent="54" name="iconID">
+      <Position>13</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="488" parent="54" name="soundID">
+      <Position>14</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="489" parent="54" name="graphicID">
+      <Position>15</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="490" parent="54" name="ix_invTypes_groupID">
+      <ColNames>groupID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="491" parent="54">
+      <ColNames>typeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="492" parent="54">
+      <Predicate>published IN (0, 1)</Predicate>
+    </check>
+    <column id="493" parent="55" name="itemID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="494" parent="55" name="itemName">
+      <Position>2</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="495" parent="55" name="groupID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="496" parent="55" name="ix_invUniqueNames_itemName">
+      <ColNames>itemName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="497" parent="55" name="invUniqueNames_IX_GroupName">
+      <ColNames>groupID
+itemName</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="498" parent="55">
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="499" parent="56" name="typeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="500" parent="56" name="volume">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="501" parent="56">
+      <ColNames>typeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="502" parent="57" name="celestialID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="503" parent="57" name="temperature">
+      <Position>2</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="504" parent="57" name="spectralClass">
+      <Position>3</Position>
+      <DataType>VARCHAR(10)|0s</DataType>
+    </column>
+    <column id="505" parent="57" name="luminosity">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="506" parent="57" name="age">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="507" parent="57" name="life">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="508" parent="57" name="orbitRadius">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="509" parent="57" name="eccentricity">
+      <Position>8</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="510" parent="57" name="massDust">
+      <Position>9</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="511" parent="57" name="massGas">
+      <Position>10</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="512" parent="57" name="fragmented">
+      <Position>11</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="513" parent="57" name="density">
+      <Position>12</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="514" parent="57" name="surfaceGravity">
+      <Position>13</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="515" parent="57" name="escapeVelocity">
+      <Position>14</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="516" parent="57" name="orbitPeriod">
+      <Position>15</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="517" parent="57" name="rotationRate">
+      <Position>16</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="518" parent="57" name="locked">
+      <Position>17</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="519" parent="57" name="pressure">
+      <Position>18</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="520" parent="57" name="radius">
+      <Position>19</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="521" parent="57" name="mass">
+      <Position>20</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="522" parent="57">
+      <ColNames>celestialID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="523" parent="57">
+      <Predicate>fragmented IN (0, 1)</Predicate>
+    </check>
+    <check id="524" parent="57">
+      <Predicate>locked IN (0, 1)</Predicate>
+    </check>
+    <column id="525" parent="58" name="fromRegionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="526" parent="58" name="fromConstellationID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="527" parent="58" name="toConstellationID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="528" parent="58" name="toRegionID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="529" parent="58" name="sqlite_autoindex_mapConstellationJumps_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>fromConstellationID
+toConstellationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="530" parent="58">
+      <ColNames>fromConstellationID
+toConstellationID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_mapConstellationJumps_1</UnderlyingIndexName>
+    </key>
+    <column id="531" parent="59" name="regionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="532" parent="59" name="constellationID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="533" parent="59" name="constellationName">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="534" parent="59" name="x">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="535" parent="59" name="y">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="536" parent="59" name="z">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="537" parent="59" name="xMin">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="538" parent="59" name="xMax">
+      <Position>8</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="539" parent="59" name="yMin">
+      <Position>9</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="540" parent="59" name="yMax">
+      <Position>10</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="541" parent="59" name="zMin">
+      <Position>11</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="542" parent="59" name="zMax">
+      <Position>12</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="543" parent="59" name="factionID">
+      <Position>13</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="544" parent="59" name="radius">
+      <Position>14</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <key id="545" parent="59">
+      <ColNames>constellationID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="546" parent="60" name="itemID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="547" parent="60" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="548" parent="60" name="groupID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="549" parent="60" name="solarSystemID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="550" parent="60" name="constellationID">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="551" parent="60" name="regionID">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="552" parent="60" name="orbitID">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="553" parent="60" name="x">
+      <Position>8</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="554" parent="60" name="y">
+      <Position>9</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="555" parent="60" name="z">
+      <Position>10</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="556" parent="60" name="radius">
+      <Position>11</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="557" parent="60" name="itemName">
+      <Position>12</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="558" parent="60" name="security">
+      <Position>13</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="559" parent="60" name="celestialIndex">
+      <Position>14</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="560" parent="60" name="orbitIndex">
+      <Position>15</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="561" parent="60" name="ix_mapDenormalize_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="562" parent="60" name="mapDenormalize_IX_groupSystem">
+      <ColNames>groupID
+solarSystemID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="563" parent="60" name="mapDenormalize_IX_groupConstellation">
+      <ColNames>groupID
+constellationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="564" parent="60" name="mapDenormalize_IX_groupRegion">
+      <ColNames>groupID
+regionID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="565" parent="60" name="ix_mapDenormalize_solarSystemID">
+      <ColNames>solarSystemID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="566" parent="60" name="ix_mapDenormalize_constellationID">
+      <ColNames>constellationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="567" parent="60" name="ix_mapDenormalize_regionID">
+      <ColNames>regionID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="568" parent="60" name="ix_mapDenormalize_orbitID">
+      <ColNames>orbitID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="569" parent="60">
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="570" parent="61" name="stargateID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="571" parent="61" name="destinationID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="572" parent="61">
+      <ColNames>stargateID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="573" parent="62" name="landmarkID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="574" parent="62" name="landmarkName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="575" parent="62" name="description">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="576" parent="62" name="locationID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="577" parent="62" name="x">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="578" parent="62" name="y">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="579" parent="62" name="z">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="580" parent="62" name="iconID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="581" parent="62">
+      <ColNames>landmarkID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="582" parent="63" name="locationID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="583" parent="63" name="graphicID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="584" parent="63">
+      <ColNames>locationID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="585" parent="64" name="locationID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="586" parent="64" name="wormholeClassID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="587" parent="64">
+      <ColNames>locationID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="588" parent="65" name="fromRegionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="589" parent="65" name="toRegionID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="590" parent="65" name="sqlite_autoindex_mapRegionJumps_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>fromRegionID
+toRegionID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="591" parent="65">
+      <ColNames>fromRegionID
+toRegionID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_mapRegionJumps_1</UnderlyingIndexName>
+    </key>
+    <column id="592" parent="66" name="regionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="593" parent="66" name="regionName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="594" parent="66" name="x">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="595" parent="66" name="y">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="596" parent="66" name="z">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="597" parent="66" name="xMin">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="598" parent="66" name="xMax">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="599" parent="66" name="yMin">
+      <Position>8</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="600" parent="66" name="yMax">
+      <Position>9</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="601" parent="66" name="zMin">
+      <Position>10</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="602" parent="66" name="zMax">
+      <Position>11</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="603" parent="66" name="factionID">
+      <Position>12</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="604" parent="66" name="radius">
+      <Position>13</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <key id="605" parent="66">
+      <ColNames>regionID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="606" parent="67" name="fromRegionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="607" parent="67" name="fromConstellationID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="608" parent="67" name="fromSolarSystemID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="609" parent="67" name="toSolarSystemID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="610" parent="67" name="toConstellationID">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="611" parent="67" name="toRegionID">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="612" parent="67" name="sqlite_autoindex_mapSolarSystemJumps_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>fromSolarSystemID
+toSolarSystemID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="613" parent="67">
+      <ColNames>fromSolarSystemID
+toSolarSystemID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_mapSolarSystemJumps_1</UnderlyingIndexName>
+    </key>
+    <column id="614" parent="68" name="regionID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="615" parent="68" name="constellationID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="616" parent="68" name="solarSystemID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="617" parent="68" name="solarSystemName">
+      <Position>4</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="618" parent="68" name="x">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="619" parent="68" name="y">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="620" parent="68" name="z">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="621" parent="68" name="xMin">
+      <Position>8</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="622" parent="68" name="xMax">
+      <Position>9</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="623" parent="68" name="yMin">
+      <Position>10</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="624" parent="68" name="yMax">
+      <Position>11</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="625" parent="68" name="zMin">
+      <Position>12</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="626" parent="68" name="zMax">
+      <Position>13</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="627" parent="68" name="luminosity">
+      <Position>14</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="628" parent="68" name="border">
+      <Position>15</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="629" parent="68" name="fringe">
+      <Position>16</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="630" parent="68" name="corridor">
+      <Position>17</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="631" parent="68" name="hub">
+      <Position>18</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="632" parent="68" name="international">
+      <Position>19</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="633" parent="68" name="regional">
+      <Position>20</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="634" parent="68" name="constellation">
+      <Position>21</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <column id="635" parent="68" name="security">
+      <Position>22</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="636" parent="68" name="factionID">
+      <Position>23</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="637" parent="68" name="radius">
+      <Position>24</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="638" parent="68" name="sunTypeID">
+      <Position>25</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="639" parent="68" name="securityClass">
+      <Position>26</Position>
+      <DataType>VARCHAR(2)|0s</DataType>
+    </column>
+    <index id="640" parent="68" name="ix_mapSolarSystems_regionID">
+      <ColNames>regionID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="641" parent="68" name="ix_mapSolarSystems_constellationID">
+      <ColNames>constellationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="642" parent="68" name="ix_mapSolarSystems_security">
+      <ColNames>security</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="643" parent="68">
+      <ColNames>solarSystemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="644" parent="68">
+      <Predicate>border IN (0, 1)</Predicate>
+    </check>
+    <check id="645" parent="68">
+      <Predicate>constellation IN (0, 1)</Predicate>
+    </check>
+    <check id="646" parent="68">
+      <Predicate>corridor IN (0, 1)</Predicate>
+    </check>
+    <check id="647" parent="68">
+      <Predicate>fringe IN (0, 1)</Predicate>
+    </check>
+    <check id="648" parent="68">
+      <Predicate>hub IN (0, 1)</Predicate>
+    </check>
+    <check id="649" parent="68">
+      <Predicate>international IN (0, 1)</Predicate>
+    </check>
+    <check id="650" parent="68">
+      <Predicate>regional IN (0, 1)</Predicate>
+    </check>
+    <column id="651" parent="69" name="universeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="652" parent="69" name="universeName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="653" parent="69" name="x">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="654" parent="69" name="y">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="655" parent="69" name="z">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="656" parent="69" name="xMin">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="657" parent="69" name="xMax">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="658" parent="69" name="yMin">
+      <Position>8</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="659" parent="69" name="yMax">
+      <Position>9</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="660" parent="69" name="zMin">
+      <Position>10</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="661" parent="69" name="zMax">
+      <Position>11</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="662" parent="69" name="radius">
+      <Position>12</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <key id="663" parent="69">
+      <ColNames>universeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="664" parent="70" name="schematicID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="665" parent="70" name="schematicName">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="666" parent="70" name="cycleTime">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="667" parent="70">
+      <ColNames>schematicID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="668" parent="71" name="schematicID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="669" parent="71" name="pinTypeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="670" parent="71" name="sqlite_autoindex_planetSchematicsPinMap_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>schematicID
+pinTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="671" parent="71">
+      <ColNames>schematicID
+pinTypeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_planetSchematicsPinMap_1</UnderlyingIndexName>
+    </key>
+    <column id="672" parent="72" name="schematicID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="673" parent="72" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="674" parent="72" name="quantity">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="675" parent="72" name="isInput">
+      <Position>4</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <index id="676" parent="72" name="sqlite_autoindex_planetSchematicsTypeMap_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>schematicID
+typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="677" parent="72">
+      <ColNames>schematicID
+typeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_planetSchematicsTypeMap_1</UnderlyingIndexName>
+    </key>
+    <check id="678" parent="72">
+      <Predicate>&quot;isInput&quot; IN (0, 1)</Predicate>
+    </check>
+    <column id="679" parent="73" name="activityID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="680" parent="73" name="activityName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="681" parent="73" name="iconNo">
+      <Position>3</Position>
+      <DataType>VARCHAR(5)|0s</DataType>
+    </column>
+    <column id="682" parent="73" name="description">
+      <Position>4</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="683" parent="73" name="published">
+      <Position>5</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <key id="684" parent="73">
+      <ColNames>activityID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="685" parent="73">
+      <Predicate>published IN (0, 1)</Predicate>
+    </check>
+    <column id="686" parent="74" name="stationID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="687" parent="74" name="assemblyLineTypeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="688" parent="74" name="quantity">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="689" parent="74" name="stationTypeID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="690" parent="74" name="ownerID">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="691" parent="74" name="solarSystemID">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="692" parent="74" name="regionID">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="693" parent="74" name="sqlite_autoindex_ramAssemblyLineStations_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>stationID
+assemblyLineTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="694" parent="74" name="ix_ramAssemblyLineStations_ownerID">
+      <ColNames>ownerID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="695" parent="74" name="ix_ramAssemblyLineStations_solarSystemID">
+      <ColNames>solarSystemID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="696" parent="74" name="ix_ramAssemblyLineStations_regionID">
+      <ColNames>regionID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="697" parent="74">
+      <ColNames>stationID
+assemblyLineTypeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_ramAssemblyLineStations_1</UnderlyingIndexName>
+    </key>
+    <column id="698" parent="75" name="assemblyLineTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="699" parent="75" name="categoryID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="700" parent="75" name="timeMultiplier">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="701" parent="75" name="materialMultiplier">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="702" parent="75" name="costMultiplier">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <index id="703" parent="75" name="sqlite_autoindex_ramAssemblyLineTypeDetailPerCategory_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>assemblyLineTypeID
+categoryID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="704" parent="75">
+      <ColNames>assemblyLineTypeID
+categoryID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_ramAssemblyLineTypeDetailPerCategory_1</UnderlyingIndexName>
+    </key>
+    <column id="705" parent="76" name="assemblyLineTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="706" parent="76" name="groupID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="707" parent="76" name="timeMultiplier">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="708" parent="76" name="materialMultiplier">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="709" parent="76" name="costMultiplier">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <index id="710" parent="76" name="sqlite_autoindex_ramAssemblyLineTypeDetailPerGroup_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>assemblyLineTypeID
+groupID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="711" parent="76">
+      <ColNames>assemblyLineTypeID
+groupID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_ramAssemblyLineTypeDetailPerGroup_1</UnderlyingIndexName>
+    </key>
+    <column id="712" parent="77" name="assemblyLineTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="713" parent="77" name="assemblyLineTypeName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="714" parent="77" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="715" parent="77" name="baseTimeMultiplier">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="716" parent="77" name="baseMaterialMultiplier">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="717" parent="77" name="baseCostMultiplier">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="718" parent="77" name="volume">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="719" parent="77" name="activityID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="720" parent="77" name="minCostPerHour">
+      <Position>9</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <key id="721" parent="77">
+      <ColNames>assemblyLineTypeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="722" parent="78" name="installationTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="723" parent="78" name="assemblyLineTypeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="724" parent="78" name="quantity">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="725" parent="78" name="sqlite_autoindex_ramInstallationTypeContents_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>installationTypeID
+assemblyLineTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="726" parent="78">
+      <ColNames>installationTypeID
+assemblyLineTypeID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_ramInstallationTypeContents_1</UnderlyingIndexName>
+    </key>
+    <column id="727" parent="79" name="licenseTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="728" parent="79" name="duration">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="729" parent="79" name="skinID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="730" parent="79">
+      <ColNames>licenseTypeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="731" parent="80" name="skinMaterialID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="732" parent="80" name="displayNameID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="733" parent="80" name="materialSetID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="734" parent="80">
+      <ColNames>skinMaterialID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="735" parent="81" name="skinID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="736" parent="81" name="typeID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="737" parent="81" name="ix_skinShip_skinID">
+      <ColNames>skinID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="738" parent="81" name="ix_skinShip_typeID">
+      <ColNames>typeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <column id="739" parent="82" name="skinID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="740" parent="82" name="internalName">
+      <Position>2</Position>
+      <DataType>VARCHAR(70)|0s</DataType>
+    </column>
+    <column id="741" parent="82" name="skinMaterialID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="742" parent="82">
+      <ColNames>skinID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="743" parent="83" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="744" parent="83" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="745" parent="83" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="746" parent="83" name="rootpage">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="747" parent="83" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="748" parent="84" name="operationID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="749" parent="84" name="serviceID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="750" parent="84" name="sqlite_autoindex_staOperationServices_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>operationID
+serviceID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="751" parent="84">
+      <ColNames>operationID
+serviceID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_staOperationServices_1</UnderlyingIndexName>
+    </key>
+    <column id="752" parent="85" name="activityID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="753" parent="85" name="operationID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="754" parent="85" name="operationName">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="755" parent="85" name="description">
+      <Position>4</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <column id="756" parent="85" name="fringe">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="757" parent="85" name="corridor">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="758" parent="85" name="hub">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="759" parent="85" name="border">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="760" parent="85" name="ratio">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="761" parent="85" name="caldariStationTypeID">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="762" parent="85" name="minmatarStationTypeID">
+      <Position>11</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="763" parent="85" name="amarrStationTypeID">
+      <Position>12</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="764" parent="85" name="gallenteStationTypeID">
+      <Position>13</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="765" parent="85" name="joveStationTypeID">
+      <Position>14</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="766" parent="85">
+      <ColNames>operationID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="767" parent="86" name="serviceID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="768" parent="86" name="serviceName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="769" parent="86" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(1000)|0s</DataType>
+    </column>
+    <key id="770" parent="86">
+      <ColNames>serviceID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="771" parent="87" name="stationTypeID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="772" parent="87" name="dockEntryX">
+      <Position>2</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="773" parent="87" name="dockEntryY">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="774" parent="87" name="dockEntryZ">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="775" parent="87" name="dockOrientationX">
+      <Position>5</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="776" parent="87" name="dockOrientationY">
+      <Position>6</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="777" parent="87" name="dockOrientationZ">
+      <Position>7</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="778" parent="87" name="operationID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="779" parent="87" name="officeSlots">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="780" parent="87" name="reprocessingEfficiency">
+      <Position>10</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="781" parent="87" name="conquerable">
+      <Position>11</Position>
+      <DataType>BOOLEAN|0s</DataType>
+    </column>
+    <key id="782" parent="87">
+      <ColNames>stationTypeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <check id="783" parent="87">
+      <Predicate>conquerable IN (0, 1)</Predicate>
+    </check>
+    <column id="784" parent="88" name="stationID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="785" parent="88" name="security">
+      <Position>2</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="786" parent="88" name="dockingCostPerVolume">
+      <Position>3</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="787" parent="88" name="maxShipVolumeDockable">
+      <Position>4</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="788" parent="88" name="officeRentalCost">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="789" parent="88" name="operationID">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="790" parent="88" name="stationTypeID">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="791" parent="88" name="corporationID">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="792" parent="88" name="solarSystemID">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="793" parent="88" name="constellationID">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="794" parent="88" name="regionID">
+      <Position>11</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="795" parent="88" name="stationName">
+      <Position>12</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="796" parent="88" name="x">
+      <Position>13</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="797" parent="88" name="y">
+      <Position>14</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="798" parent="88" name="z">
+      <Position>15</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="799" parent="88" name="reprocessingEfficiency">
+      <Position>16</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="800" parent="88" name="reprocessingStationsTake">
+      <Position>17</Position>
+      <DataType>FLOAT|0s</DataType>
+    </column>
+    <column id="801" parent="88" name="reprocessingHangarFlag">
+      <Position>18</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="802" parent="88" name="sqlite_autoindex_staStations_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>stationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="803" parent="88" name="ix_staStations_operationID">
+      <ColNames>operationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="804" parent="88" name="ix_staStations_stationTypeID">
+      <ColNames>stationTypeID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="805" parent="88" name="ix_staStations_corporationID">
+      <ColNames>corporationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="806" parent="88" name="ix_staStations_solarSystemID">
+      <ColNames>solarSystemID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="807" parent="88" name="ix_staStations_constellationID">
+      <ColNames>constellationID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="808" parent="88" name="ix_staStations_regionID">
+      <ColNames>regionID</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="809" parent="88">
+      <ColNames>stationID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_staStations_1</UnderlyingIndexName>
+    </key>
+    <column id="810" parent="89" name="sourceTable">
+      <Position>1</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="811" parent="89" name="destinationTable">
+      <Position>2</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+    </column>
+    <column id="812" parent="89" name="translatedKey">
+      <Position>3</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="813" parent="89" name="tcGroupID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="814" parent="89" name="tcID">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="815" parent="89" name="sqlite_autoindex_translationTables_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>sourceTable
+translatedKey</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="816" parent="89">
+      <ColNames>sourceTable
+translatedKey</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_translationTables_1</UnderlyingIndexName>
+    </key>
+    <column id="817" parent="90" name="tcGroupID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="818" parent="90" name="tcID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="819" parent="90" name="tableName">
+      <Position>3</Position>
+      <DataType>VARCHAR(256)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="820" parent="90" name="columnName">
+      <Position>4</Position>
+      <DataType>VARCHAR(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="821" parent="90" name="masterID">
+      <Position>5</Position>
+      <DataType>VARCHAR(128)|0s</DataType>
+    </column>
+    <key id="822" parent="90">
+      <ColNames>tcID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="823" parent="91" name="numericLanguageID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="824" parent="91" name="languageID">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+    </column>
+    <column id="825" parent="91" name="languageName">
+      <Position>3</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+    </column>
+    <key id="826" parent="91">
+      <ColNames>numericLanguageID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="827" parent="92" name="tcID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="828" parent="92" name="keyID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="829" parent="92" name="languageID">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="830" parent="92" name="text">
+      <Position>4</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="831" parent="92" name="sqlite_autoindex_trnTranslations_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tcID
+keyID
+languageID</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="832" parent="92">
+      <ColNames>tcID
+keyID
+languageID</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_trnTranslations_1</UnderlyingIndexName>
+    </key>
+    <column id="833" parent="93" name="solarSystemID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="834" parent="93" name="combatZoneID">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="835" parent="93">
+      <ColNames>solarSystemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="836" parent="94" name="combatZoneID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="837" parent="94" name="combatZoneName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="838" parent="94" name="factionID">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="839" parent="94" name="centerSystemID">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="840" parent="94" name="description">
+      <Position>5</Position>
+      <DataType>VARCHAR(500)|0s</DataType>
+    </column>
+    <key id="841" parent="94">
+      <ColNames>combatZoneID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
